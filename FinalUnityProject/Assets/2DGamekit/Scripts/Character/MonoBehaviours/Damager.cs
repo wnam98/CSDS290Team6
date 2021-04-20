@@ -43,6 +43,29 @@ namespace Gamekit2D
         protected Transform m_DamagerTransform;
         protected Collider2D m_LastHit;
 
+        public float reloadTime = 10f;
+        public bool criticalDamage = false;
+
+        public void increaseDamage()
+        {
+            damage = 3;
+            criticalDamage = true;
+
+        }
+
+        void Update()
+        {
+            if (criticalDamage)
+            {
+                reloadTime -= Time.deltaTime;
+                if(reloadTime <= 0f)
+                {
+                    damage = 1;
+                    criticalDamage = false;
+                }
+            }
+        }
+
 
         void Awake()
         {
@@ -66,11 +89,8 @@ namespace Gamekit2D
             m_CanDamage = false;
         }
 
-        public void increaseDamage()
-        {
-            damage = 3;
-            
-        }
+       
+
 
         void FixedUpdate()
         {
