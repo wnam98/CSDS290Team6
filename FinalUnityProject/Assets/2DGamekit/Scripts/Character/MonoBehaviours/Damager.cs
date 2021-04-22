@@ -43,16 +43,24 @@ namespace Gamekit2D
         protected Transform m_DamagerTransform;
         protected Collider2D m_LastHit;
 
-        public float reloadTime = 10f;
+        // Create a timecounter that helps count the duration of the spell.
+        // we set the duration for the spell to be 8f.
+        // Create another variable that check if the criticalhit spell is on.
+        public float reloadTime = 8f;
         public bool criticalDamage = false;
-
+        
+        // Create a new method that lets the character have a criticalhit spell.
+        // Having the spell, the damage of a single hit by the character will be increased to 2.
+        // If the character gets the spell, then the criticalhit spell will be on.
         public void increaseDamage()
         {
-            damage = 3;
+            damage = 2;
             criticalDamage = true;
 
         }
-
+        
+        // The method will help turn off the criticalhit spell after the time is up (8f here). 
+        // After the spell is off, the damage will go back to 1 per hit.
         void Update()
         {
             if (criticalDamage)
