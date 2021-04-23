@@ -82,7 +82,7 @@ namespace Gamekit2D
         {
             m_Invulnerable = true;
             //technically don't ignore timer, just set it to an insanly big number. Allow to avoid to add more test & special case.
-            m_InulnerabilityTimer = invulnerabilityDuration * 2.5;
+            m_InulnerabilityTimer = invulnerabilityDuration * 2.5f;
         }
 
         public void DisableInvulnerability()
