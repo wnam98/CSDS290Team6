@@ -77,11 +77,12 @@ namespace Gamekit2D
             m_InulnerabilityTimer = ignoreTimer ? float.MaxValue : invulnerabilityDuration;
         }
 
+        // enable the character to have the ability of invulnerable for a certain amount of time after achieving specific requirements.
         public void EnableInvulnerabilityTime(bool ignoreTimer = false)
         {
             m_Invulnerable = true;
             //technically don't ignore timer, just set it to an insanly big number. Allow to avoid to add more test & special case.
-            m_InulnerabilityTimer = invulnerabilityDuration * 2;
+            m_InulnerabilityTimer = invulnerabilityDuration * 2.5;
         }
 
         public void DisableInvulnerability()
