@@ -969,11 +969,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -36.78
       objectReference: {fileID: 0}
     - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.235
+      value: 7.64
       objectReference: {fileID: 0}
     - target: {fileID: 4937033937124800, guid: f949db0cfd21cb34796d46f92ac4fb1a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1264,7 +1264,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 5
+          m_FloatArgument: 2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1994,7 +1994,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 5
+          m_FloatArgument: 3
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -4187,7 +4187,7 @@ PrefabInstance:
     - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
         type: 3}
       propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
         type: 3}
@@ -4196,7 +4196,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
         type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
       propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 744268061}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_Target
       value: 
       objectReference: {fileID: 744268061}
     - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
@@ -4206,8 +4216,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
         type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
       propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
       value: ActivateCanvasWithText
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: DeactivateCanvasWithDelay
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_FloatArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
         type: 3}
@@ -4217,6 +4242,11 @@ PrefabInstance:
     - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
         type: 3}
       propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114578885164018164, guid: 6ce14eb040a43734b9fb27d9a62d91ee,
+        type: 3}
+      propertyPath: OnGivingHealth.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4231,6 +4261,18 @@ PrefabInstance:
     - target: {fileID: 4212235226361802, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
       propertyPath: m_RootOrder
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212235226361802, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212235226361802, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4212235226361802, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4212235226361802, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4341,6 +4383,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212611162554739646, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 5.2325583
+      objectReference: {fileID: 0}
+    - target: {fileID: 212611162554739646, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 2.5581396
+      objectReference: {fileID: 0}
+    - target: {fileID: 212611162554739646, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5a1cef7e9c9ed034da742d0e08ea786a,
+        type: 3}
+    - target: {fileID: 212611162554739646, guid: 73360cdb4e1e7ed4897690f9d57fd0eb,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73360cdb4e1e7ed4897690f9d57fd0eb, type: 3}
@@ -4584,7 +4647,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 5
+          m_FloatArgument: 2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -4635,7 +4698,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 4
+          m_FloatArgument: 2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -5619,7 +5682,7 @@ PrefabInstance:
     - target: {fileID: 114676100391387604, guid: 7da6a32167f5e2948a425959d1ea2014,
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_FloatArgument
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114676100391387604, guid: 7da6a32167f5e2948a425959d1ea2014,
         type: 3}
@@ -17630,7 +17693,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 4
+          m_FloatArgument: 2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -17861,7 +17924,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 5
+          m_FloatArgument: 2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
