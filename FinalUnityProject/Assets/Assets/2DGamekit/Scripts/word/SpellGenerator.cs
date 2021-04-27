@@ -21,7 +21,7 @@ public class SpellGenerator : MonoBehaviour
             randRow = Random.Range(0, 3);
             count = 0;
         }
-        Debug.Log("count: " + count);
+        // Debug.Log("count: " + count);
         int randCol = Random.Range(0,10);
         string randomWord = spellList[randRow, randCol];
         count++;

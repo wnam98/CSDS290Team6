@@ -9,7 +9,10 @@ public class WordDisplay : MonoBehaviour
     public Text text;
     public float fallSpeed = 60.0f;
     public bool getSpell = true;
-
+    ParticleSystem particle;
+    void Start(){
+        particle = GetComponent<ParticleSystem>();
+    }
     public void SetWord(string word)
     {
         text.text = word;
@@ -30,11 +33,11 @@ public class WordDisplay : MonoBehaviour
     {
         transform.Translate(0.0f, -fallSpeed * Time.deltaTime, 0.0f);
         float position_y = transform.position.y;
-        if (position_y <= 50)
+        if (position_y <= 40)
         {
             Destroy(gameObject);
             getSpell = false;
-            Debug.Log("game over");
+            particle.Play();
         }
     }
 }

@@ -11,7 +11,7 @@ public class WordCreator : MonoBehaviour
 
     public WordDisplay CreateWord()
     {
-        Vector3 randomPosition = new Vector3(Random.Range(40f, 90f), 330f);
+        Vector3 randomPosition = new Vector3(Random.Range(40f, 580f), 340f);
         GameObject wordObj = Instantiate(wordPrefab,randomPosition, Quaternion.identity, wordCanvas);
         WordDisplay wordDisplay = wordObj.GetComponent<WordDisplay>();
         return wordDisplay;

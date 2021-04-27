@@ -24,13 +24,13 @@ public class SpellMessage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int success_typed = GameObject.Find("WordsController").GetComponent<WordController>().get_successful();
+        int success_typed = GameObject.Find("WordManager").GetComponent<WordController>().get_successful();
         if (success_typed == 0)
         {
             group = SpellGenerator.get_group();
             success_added = false;
         }
-        if (success_typed >= 20 && !success_added)
+        if (success_typed >= 19 && !success_added)
         {
             if (group == 0)
             {
@@ -50,6 +50,6 @@ public class SpellMessage : MonoBehaviour
         }
        
          
-        spellAbility.text = "Fire: " + fire_num + "\nwater: " + water_num + "\nplant: " + plant_num + "\nTyped: " + success_typed;
+        spellAbility.text = "Fire: " + fire_num + "\nWater: " + water_num + "\nPlant: " + plant_num + "\nTyped: " + success_typed;
     }
 }

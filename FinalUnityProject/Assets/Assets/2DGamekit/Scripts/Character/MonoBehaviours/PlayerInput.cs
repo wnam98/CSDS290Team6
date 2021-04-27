@@ -16,7 +16,7 @@ namespace Gamekit2D
 
         public InputButton Pause = new InputButton(KeyCode.Escape, XboxControllerButtons.Menu);
         public InputButton Interact = new InputButton(KeyCode.E, XboxControllerButtons.Y);
-        public InputButton MeleeAttack = new InputButton(KeyCode.K, XboxControllerButtons.X);
+        public InputButton MeleeAttack = new InputButton(KeyCode.Z, XboxControllerButtons.X);
         public InputButton RangedAttack = new InputButton(KeyCode.O, XboxControllerButtons.B);
         public InputButton Jump = new InputButton(KeyCode.Space, XboxControllerButtons.A);
         public InputAxis Horizontal = new InputAxis(KeyCode.RightArrow, KeyCode.LeftArrow, XboxControllerAxes.LeftstickHorizontal);

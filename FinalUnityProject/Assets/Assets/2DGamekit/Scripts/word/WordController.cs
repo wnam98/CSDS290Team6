@@ -15,12 +15,11 @@ public class WordController : MonoBehaviour
     private int typed_successful = 0;
     public float wordDelay = 1.0f;
     private float nextWordTime = 0f;
+    ParticleSystem particle;
 
 
-
-    void Start()
-    {
-        //AddWord();
+    private IEnumerator Start(){
+        yield return new WaitForSeconds(5);
     }
 
     public void AddWord()
@@ -73,7 +72,7 @@ public class WordController : MonoBehaviour
         }
 
         //words in the same group show
-        if (Time.time >= nextWordTime && count <= 19)
+        if (Time.time >= nextWordTime && count < 19)
         {
             AddWord();
             nextWordTime = Time.time + wordDelay;
