@@ -520,7 +520,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: O'Alasdair! You've been entrusted with the great staff
+          m_StringArgument: O'Alasdair! You've been entrusted with the great sword
             O'Malley! Don't let this be in vain and find the Princess!
           m_BoolArgument: 1
         m_CallState: 2
@@ -1981,7 +1981,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Alas! King of Ingleness has sent me to rescue the Princess!
             I'll need your help on this quest! Are you in for the challenge? Press
-            A to go to the cauldron!
+            Left Arrow key to go to the cauldron!
           m_BoolArgument: 0
         m_CallState: 2
   OnExit:
@@ -17678,9 +17678,10 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: In order to move around, press the A and D keys. Press
-            Space to jump, and S to crouch. Try jumping to the Armory flag ahead
-            and see what other clues lie awaiting you for your quest!
+          m_StringArgument: In order to move around, press the Left and Right arrow
+            keys. Press Space to jump, and Down Arrow to crouch. Try jumping to the
+            Armory flag ahead and see what other clues lie awaiting you for your
+            quest!
           m_BoolArgument: 0
         m_CallState: 2
   OnExit:
@@ -17911,7 +17912,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Enemies will be lurking during your quest! Jump over
-            them or press K to attack!
+            them or press K to attack once you've picked up your sword!
           m_BoolArgument: 0
         m_CallState: 2
   OnExit:
