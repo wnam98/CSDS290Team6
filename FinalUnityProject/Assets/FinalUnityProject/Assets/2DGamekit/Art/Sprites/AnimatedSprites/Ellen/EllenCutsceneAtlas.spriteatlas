@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EllenCutsceneAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 8192
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3b282ed300911054f9a15dfe288b180b, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ade02ba028276e54b86bb0a7fd6dbc73, type: 3}
+  - {fileID: 21300000, guid: 6ca890c0d46aed24b9dc2b295bc00f66, type: 3}
+  - {fileID: 21300000, guid: bcaa0311c970a4d4bbba155ead8e2ec9, type: 3}
+  - {fileID: 21300000, guid: b7cf26129025c9446a8d20792b8e159c, type: 3}
+  - {fileID: 21300000, guid: c488cb3259efaf64dbc725a0362423ed, type: 3}
+  - {fileID: 21300000, guid: 672df942c86e23347b1b7b5fb5a84245, type: 3}
+  - {fileID: 21300000, guid: 18e8eb92dd3ceb1469e7014c30d4ff6f, type: 3}
+  - {fileID: 21300000, guid: 4c14b4b26ba3954479df28b06950eed7, type: 3}
+  - {fileID: 21300000, guid: b9fffc33e945db447b54b3c598812b43, type: 3}
+  - {fileID: 21300000, guid: 3720cfa39b20ddd44b9fe66cebf9e840, type: 3}
+  - {fileID: 21300000, guid: 8f91aec303484784baf7d09f1252fcbe, type: 3}
+  - {fileID: 21300000, guid: 61470ef360e26e443b15c86e8ab7b825, type: 3}
+  - {fileID: 21300000, guid: 92e834947b80f434ab1c84dd9fe6f2d4, type: 3}
+  - {fileID: 21300000, guid: e2d524a4a50304a438d8a927b5cbebf3, type: 3}
+  - {fileID: 21300000, guid: af7eeba488165594893e2f472e490641, type: 3}
+  - {fileID: 21300000, guid: 5715246514011fb4a96af1a3eb487de5, type: 3}
+  - {fileID: 21300000, guid: 520370955bb32b249b2398dae0d74daa, type: 3}
+  - {fileID: 21300000, guid: edde79a59fd60954786619699f40fd15, type: 3}
+  - {fileID: 21300000, guid: 94c8730645e21c044baebfaa9cb1da43, type: 3}
+  - {fileID: 21300000, guid: a092d90668f03aa4daab34f58d40d522, type: 3}
+  - {fileID: 21300000, guid: f3dc52960bb20fd41bcc9d8f0a6cddda, type: 3}
+  - {fileID: 21300000, guid: b21a4c07951e2a741ab6e18f67c5cd69, type: 3}
+  - {fileID: 21300000, guid: 55ca0d0721067024493a1b8b793f626b, type: 3}
+  - {fileID: 21300000, guid: 68451d277d2abba46a8ce6bf03ca7e0e, type: 3}
+  - {fileID: 21300000, guid: 61195b474a827e24ba579c744c9380ea, type: 3}
+  - {fileID: 21300000, guid: cd023f67908240041b1075057c5c3c04, type: 3}
+  - {fileID: 21300000, guid: 31b51fd7189a3ce4ab9b7d6df4412d5b, type: 3}
+  - {fileID: 21300000, guid: ffdedd78298272f41803165e1688d517, type: 3}
+  - {fileID: 21300000, guid: 5f477da839259a943925119dae1bbae1, type: 3}
+  - {fileID: 21300000, guid: 32722fb81d66c964baf3ddb63bd0ec80, type: 3}
+  - {fileID: 21300000, guid: 7a68ffe95bdc18648a1b64e68e5ef81c, type: 3}
+  - {fileID: 21300000, guid: 411cf84ac65191c4bb59a562f6ff00d5, type: 3}
+  - {fileID: 21300000, guid: bff3ce5a15904084681571caeaccf970, type: 3}
+  - {fileID: 21300000, guid: 430a778a5e873dd47b839ef9c835fe65, type: 3}
+  - {fileID: 21300000, guid: 69af98fa418a807459df8c0c4550e5f0, type: 3}
+  - {fileID: 21300000, guid: e025cbdb4e2ba0c4da395d1f388932dd, type: 3}
+  - {fileID: 21300000, guid: e252d6fb9ffd03d4bbf3567696462a11, type: 3}
+  - {fileID: 21300000, guid: c0c34b3ce5f3bad4a92ae2ace64ea54b, type: 3}
+  - {fileID: 21300000, guid: 82faca6ccaca2e84194a1687034f6516, type: 3}
+  - {fileID: 21300000, guid: 1b1aaddc1d43c32499646712b8f268ba, type: 3}
+  - {fileID: 21300000, guid: eef2731d6982af94f834fb01754cf727, type: 3}
+  - {fileID: 21300000, guid: e83bba8d61ebba94a808babd4b5ff2e6, type: 3}
+  - {fileID: 21300000, guid: 6273cb8d418832842a5b84cf1ce0309c, type: 3}
+  - {fileID: 21300000, guid: 7e82ba9d5f311eb4fb7dcb182df37f9d, type: 3}
+  - {fileID: 21300000, guid: 17bf46adfb56f2a4b8291485095e86f5, type: 3}
+  - {fileID: 21300000, guid: 18230ebd5379ad74cb0c12e1542b865e, type: 3}
+  - {fileID: 21300000, guid: cc70f4ed2fbad8e41b49d60dd0af1bcb, type: 3}
+  - {fileID: 21300000, guid: 625b1ced41799954fb7bdc0ddbd7d06b, type: 3}
+  - {fileID: 21300000, guid: f4d973fde270bf646989674f9883ff37, type: 3}
+  - {fileID: 21300000, guid: b18e780e169a7b44fb0cbdd0e41304b2, type: 3}
+  - {fileID: 21300000, guid: 0aa4758e6a5fb5548b825f9b9f30d7c6, type: 3}
+  - {fileID: 21300000, guid: e25cbe8e8a8f4ef4e82de4609795f084, type: 3}
+  - {fileID: 21300000, guid: 82f4b76f54d84e545bf4542d0ab902f1, type: 3}
+  - {fileID: 21300000, guid: febb0f6fef5a4a047a1acf99e84d9fb8, type: 3}
+  - {fileID: 21300000, guid: 2ddda87f253edea40a6f886160952413, type: 3}
+  - {fileID: 21300000, guid: e4e5eabf883c85049bd0c0898d0fd21b, type: 3}
+  - {fileID: 21300000, guid: 8457abdf9c6974b4c8d79a15869ecd97, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Ellen_CutscenePortrait_036
+  - Ellen_CutscenePortrait_001
+  - Ellen_CutscenePortrait_018
+  - Ellen_CutscenePortrait_046
+  - Ellen_CutscenePortrait_041
+  - Ellen_CutscenePortrait_038
+  - Ellen_CutscenePortrait_021
+  - Ellen_CutscenePortrait_026
+  - Ellen_CutscenePortrait_015
+  - Ellen_CutscenePortrait_017
+  - Ellen_CutscenePortrait_054
+  - Ellen_CutscenePortrait_056
+  - Ellen_CutscenePortrait_045
+  - Ellen_CutscenePortrait_011
+  - Ellen_CutscenePortrait_035
+  - Ellen_CutscenePortrait_050
+  - Ellen_CutscenePortrait_024
+  - Ellen_CutscenePortrait_029
+  - Ellen_CutscenePortrait_052
+  - Ellen_CutscenePortrait_028
+  - Ellen_CutscenePortrait_023
+  - Ellen_CutscenePortrait_010
+  - Ellen_CutscenePortrait_043
+  - Ellen_CutscenePortrait_004
+  - Ellen_CutscenePortrait_016
+  - Ellen_CutscenePortrait_049
+  - Ellen_CutscenePortrait_025
+  - Ellen_CutscenePortrait_053
+  - Ellen_CutscenePortrait_033
+  - Ellen_CutscenePortrait_042
+  - Ellen_CutscenePortrait_051
+  - Ellen_CutscenePortrait_005
+  - Ellen_CutscenePortrait_014
+  - Ellen_CutscenePortrait_007
+  - Ellen_CutscenePortrait_019
+  - Ellen_CutscenePortrait_002
+  - Ellen_CutscenePortrait_020
+  - Ellen_CutscenePortrait_000
+  - Ellen_CutscenePortrait_013
+  - Ellen_CutscenePortrait_055
+  - Ellen_CutscenePortrait_030
+  - Ellen_CutscenePortrait_034
+  - Ellen_CutscenePortrait_040
+  - Ellen_CutscenePortrait_037
+  - Ellen_CutscenePortrait_039
+  - Ellen_CutscenePortrait_032
+  - Ellen_CutscenePortrait_027
+  - Ellen_CutscenePortrait_048
+  - Ellen_CutscenePortrait_003
+  - Ellen_CutscenePortrait_044
+  - Ellen_CutscenePortrait_008
+  - Ellen_CutscenePortrait_031
+  - Ellen_CutscenePortrait_012
+  - Ellen_CutscenePortrait_006
+  - Ellen_CutscenePortrait_009
+  - Ellen_CutscenePortrait_022
+  - Ellen_CutscenePortrait_047
+  m_Tag: EllenCutsceneAtlas
+  m_IsVariant: 0

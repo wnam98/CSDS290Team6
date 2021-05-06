@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ChomperAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 8192
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 8192
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 1
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b70e068a42df2514cafb501eda8734e4, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ab415a003dc7634428737e396fb6b118, type: 3}
+  - {fileID: 21300000, guid: 5ff5b330714abac42a0db7b827b418a6, type: 3}
+  - {fileID: 21300000, guid: 62e4d070156482a4995f75774447f83d, type: 3}
+  - {fileID: 21300000, guid: 2682d6b08082e2f49b748e74174a8e87, type: 3}
+  - {fileID: 21300000, guid: 1d094e315b7be8444ab6502f9dcca260, type: 3}
+  - {fileID: 21300000, guid: ef846db2d56c3124b8f82467a163ebdf, type: 3}
+  - {fileID: 21300000, guid: 483490e295d65ea45b0ca6ec50a93382, type: 3}
+  - {fileID: 21300000, guid: ac9307145261eee499a455ddeb80db4b, type: 3}
+  - {fileID: 21300000, guid: 9e540f44219d80243bec5e2191787a0c, type: 3}
+  - {fileID: 21300000, guid: b801fd8404ee341479f2a795c6dd8ab5, type: 3}
+  - {fileID: 21300000, guid: 41ee8205a421b1643824c4bd4c9b12b0, type: 3}
+  - {fileID: 21300000, guid: aeb8b905156a5164ea3f260ddc951efd, type: 3}
+  - {fileID: 21300000, guid: c00121950f177f84092fd15f53c6ac66, type: 3}
+  - {fileID: 21300000, guid: 882f64064bde2e64db7df2086bc259df, type: 3}
+  - {fileID: 21300000, guid: 980a4b66b0a2bba42a9a3b50f4da76d6, type: 3}
+  - {fileID: 21300000, guid: 9405a54793ed1b74bb19ee929c860b0d, type: 3}
+  - {fileID: 21300000, guid: a3ee41879a5dc174f9767e2bfdcde909, type: 3}
+  - {fileID: 21300000, guid: 0ce1ce8775d04c04091f4c852f4f4ec5, type: 3}
+  - {fileID: 21300000, guid: b6e64dd7555a5fc44b98d71cb5c0d43c, type: 3}
+  - {fileID: 21300000, guid: f0657c0811c44934ba275af9b1aa5c85, type: 3}
+  - {fileID: 21300000, guid: 2db361d87da36334cb20db2ebf74e3c1, type: 3}
+  - {fileID: 21300000, guid: 1e12a6098ecee9a47b8b65f259c08991, type: 3}
+  - {fileID: 21300000, guid: d720e2d90151e91479a4d3d4287bb61b, type: 3}
+  - {fileID: 21300000, guid: 924e830a0c9d55a4bbe5afdc9729d55f, type: 3}
+  - {fileID: 21300000, guid: 4843081a76a173a468369f4fab334928, type: 3}
+  - {fileID: 21300000, guid: b3da84ebb4d3f0748b47f5cf58ae9d40, type: 3}
+  - {fileID: 21300000, guid: f14aa10c3b4eb5b47860e729e2144c28, type: 3}
+  - {fileID: 21300000, guid: 8398530cb9366974ca3cb94c16af54f7, type: 3}
+  - {fileID: 21300000, guid: b6737a6c649b5664baa6b0e1f942a9e9, type: 3}
+  - {fileID: 21300000, guid: a64b8a0d006d7b744b431b7cd3e59096, type: 3}
+  - {fileID: 21300000, guid: 3b35fd7e10ffa5a4886deb9a7fe973be, type: 3}
+  - {fileID: 21300000, guid: 030bf29ece336fa4590a0d4039eb5a00, type: 3}
+  - {fileID: 21300000, guid: b789f21f154a3744592f10328f51d9b9, type: 3}
+  - {fileID: 21300000, guid: 1c64f7cfb7bf99d48abddaeb45da9704, type: 3}
+  - {fileID: 21300000, guid: 94f6e6ef133c2fc4d978f8e13f22331e, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - ChomperWalk_00011
+  - ChomperDEATH_Paint_03
+  - ChomperDEATH_Paint_05
+  - ChomperWalk_00007
+  - ChomperRun_00001
+  - ChomperWalk_00003
+  - ChomperAttack_00005
+  - ChomperWalk_00001
+  - ChomperIdle_00009
+  - ChomperWalk_00015
+  - ChomperIdle_00003
+  - ChomperAttack_00007
+  - ChomperIdle_00011
+  - ChomperDEATH_Paint_13
+  - ChomperWalk_00013
+  - ChomperAttack_00015
+  - ChomperAttack_00001
+  - ChomperAttack_00011
+  - ChomperDEATH_Paint_09
+  - ChomperWalk_00009
+  - ChomperRun_00011
+  - ChomperAttack_00013
+  - ChomperRun_00009
+  - ChomperAttack_00009
+  - ChomperAttack_00003
+  - ChomperWalk_00005
+  - ChomperIdle_00005
+  - ChomperDEATH_Paint_07
+  - ChomperRun_00007
+  - ChomperIdle_00007
+  - ChomperRun_00003
+  - ChomperIdleE_00001
+  - ChomperRun_00005
+  - ChomperDEATH_Paint_11
+  - ChomperDEATH_Paint_01
+  m_Tag: ChomperAtlas
+  m_IsVariant: 0
