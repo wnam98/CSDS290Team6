@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/FinalUnityProject/Assets/level2.unity
+    guid: a8a4a1102f131498c90b5610a338fb7e
+  - enabled: 1
+    path: Assets/FinalUnityProject/Assets/level3.unity
+    guid: ec7af4822aaceda448023b5913a1b106
+  - enabled: 1
+    path: Assets/FinalUnityProject/Assets/NewScene.unity
+    guid: 1ef590164ed4c1f49a5a633418eb9167
+  - enabled: 1
+    path: Assets/FinalUnityProject/Assets/Start.unity
+    guid: 847620d07364dde4b97e51c3ebf74ae4
+  - enabled: 1
+    path: Assets/FinalUnityProject/Assets/2DGamekit/Scenes/UI/UIMenus.unity
+    guid: 705f1f73151a73046842d4e4ec8f514d
   m_configObjects: {}

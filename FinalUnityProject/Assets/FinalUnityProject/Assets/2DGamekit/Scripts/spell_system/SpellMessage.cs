@@ -25,12 +25,13 @@ public class SpellMessage : MonoBehaviour
     void Update()
     {
         int success_typed = GameObject.Find("WordManager").GetComponent<WordController>().get_successful();
+        //Debug.Log("successful: " + success_typed);
         if (success_typed == 0)
         {
             group = SpellGenerator.get_group();
             success_added = false;
         }
-        if (success_typed >= 19 && !success_added)
+        if (success_typed >= 4 && !success_added)
         {
             if (group == 0)
             {

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -6,6 +6,10 @@ namespace Gamekit2D
 {
     public class Damageable : MonoBehaviour, IDataPersister
     {
+        int fire_num;
+        int water_num;
+        int plant_num;
+
         [Serializable]
         public class HealthEvent : UnityEvent<Damageable>
         { }
@@ -59,6 +63,10 @@ namespace Gamekit2D
 
         void Update()
         {
+            fire_num = GameObject.Find("spellAbility").GetComponent<SpellMessage>().get_fire_num();
+            water_num = GameObject.Find("spellAbility").GetComponent<SpellMessage>().get_water_num();
+            plant_num = GameObject.Find("spellAbility").GetComponent<SpellMessage>().get_plant_num();
+
             if (m_Invulnerable)
             {
                 m_InulnerabilityTimer -= Time.deltaTime;
@@ -67,6 +75,15 @@ namespace Gamekit2D
                 {
                     m_Invulnerable = false;
                 }
+            }
+
+            if (Input.GetKeyDown(KeyCode.Alpha3)) //&& plant_num != 0)
+            {
+                EnableInvulnerabilityTime();
+                //Debug.Log("Plant_Num" + plant_num);
+                //EnableInvulnerability();
+                plant_num = plant_num - 1;
+                GameObject.Find("spellAbility").GetComponent<SpellMessage>().update_spell_num(fire_num, water_num, plant_num);
             }
         }
 

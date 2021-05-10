@@ -19,6 +19,7 @@ namespace Gamekit2D
         public Collider2D LastHit { get { return m_LastHit; } }
 
         public int damage = 1;
+        public int hit = 3; 
         public Vector2 offset = new Vector2(1.5f, 1f);
         public Vector2 size = new Vector2(2.5f, 1f);
         [Tooltip("If this is set, the offset x will be changed base on the sprite flipX setting. e.g. Allow to make the damager alway forward in the direction of sprite")]
@@ -71,6 +72,15 @@ namespace Gamekit2D
                     damage = 1;
                     criticalDamage = false;
                 }
+            }
+            
+            if (Input.GetKeyDown(KeyCode.K) && hit != 0)
+            {
+                hit = hit - 1;
+            }
+
+            if (hit == 0) {
+               damage = 0; 
             }
         }
 

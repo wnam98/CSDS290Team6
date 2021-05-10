@@ -343,7 +343,7 @@ MonoBehaviour:
     controllerButton: 4
     m_Enabled: 1
   MeleeAttack:
-    key: 122
+    key: 50
     controllerButton: 3
     m_Enabled: 0
   RangedAttack:
@@ -503,6 +503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  hit: 3
   offset: {x: 1.5, y: 0.7728567}
   size: {x: 2.5, y: 1.4542866}
   offsetBasedOnSpriteFacing: 1
