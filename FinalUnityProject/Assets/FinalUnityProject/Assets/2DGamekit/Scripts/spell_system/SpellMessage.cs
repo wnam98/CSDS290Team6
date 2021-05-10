@@ -51,7 +51,7 @@ public class SpellMessage : MonoBehaviour
         }
        
          
-        spellAbility.text = "Fire: " + fire_num + "\nwater: " + water_num + "\nplant: " + plant_num + "\nTyped: " + success_typed;
+        spellAbility.text = "Death Crystal: " + fire_num + "\nMeele Attack: " + water_num + "\nInvulnerablility: " + plant_num + "\nTyped: " + success_typed;
     }
 
     public int get_fire_num()

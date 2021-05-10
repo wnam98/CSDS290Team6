@@ -6136,11 +6136,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4187422509852562, guid: 6bc0b2bb61623f94aa335ee8a769a8f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.2
+      value: -17.36
       objectReference: {fileID: 0}
     - target: {fileID: 4187422509852562, guid: 6bc0b2bb61623f94aa335ee8a769a8f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.46
+      value: 9.48
       objectReference: {fileID: 0}
     - target: {fileID: 4187422509852562, guid: 6bc0b2bb61623f94aa335ee8a769a8f9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6237,10 +6237,10 @@ PrefabInstance:
     - target: {fileID: 114004283927459256, guid: 6bc0b2bb61623f94aa335ee8a769a8f9,
         type: 3}
       propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_StringArgument
-      value: This area is where you can cast spells! Words will fall five at a time,
-        and you must type them correctly to gain an attribute! Attributes include,
-        temporary invulnerability, melee attack, and laying damage crystals! You
-        can activate them by pressing 1, 2 , or 3 respectively!
+      value: This area is where you can cast spells! Wait a few seconds and Words
+        will fall five at a time, and you must type them correctly to gain an attribute!
+        Attributes include, temporary invulnerability, melee attack, and laying damage
+        crystals! You can activate them by pressing 1, 2 , or 3 respectively!
       objectReference: {fileID: 0}
     - target: {fileID: 114004283927459256, guid: 6bc0b2bb61623f94aa335ee8a769a8f9,
         type: 3}
@@ -18564,10 +18564,10 @@ MonoBehaviour:
   words: []
   wordCreator: {fileID: 1897014551}
   wordDelay: 1
-  x_high: 10
-  x_low: 5
-  y_high: 2
-  y_low: -2
+  x_high: -15
+  x_low: -20
+  y_high: 10
+  y_low: 5
 --- !u!4 &1897014553
 Transform:
   m_ObjectHideFlags: 0
@@ -18903,7 +18903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4187422509852562, guid: 6bc0b2bb61623f94aa335ee8a769a8f9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.64
+      value: -20.7
       objectReference: {fileID: 0}
     - target: {fileID: 4187422509852562, guid: 6bc0b2bb61623f94aa335ee8a769a8f9, type: 3}
       propertyPath: m_LocalPosition.y

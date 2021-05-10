@@ -41,6 +41,15 @@ public class WitchCraft : MonoBehaviour
             //GameObject.Find("spellAbility").GetComponent<SpellMessage>().update_spell_num(fire_num, water_num, plant_num);
         }
         
+
+        if (Input.GetKeyDown(KeyCode.Alpha3) && plant_num != 0) {
+            plant_num -= 1;
+            GameObject ellen = GameObject.Find("Ellen");
+            Damageable playerinput = ellen.GetComponent<Damageable>();
+            playerinput.EnableInvulnerabilityTime();
+            GameObject.Find("spellAbility").GetComponent<SpellMessage>().update_spell_num(fire_num, water_num, plant_num);
+        }
+
         if (Input.GetKeyDown(KeyCode.Alpha2) && water_num != 0)
         {
             water_num = water_num - 1;

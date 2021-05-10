@@ -77,14 +77,6 @@ namespace Gamekit2D
                 }
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha3)) //&& plant_num != 0)
-            {
-                EnableInvulnerabilityTime();
-                //Debug.Log("Plant_Num" + plant_num);
-                //EnableInvulnerability();
-                plant_num = plant_num - 1;
-                GameObject.Find("spellAbility").GetComponent<SpellMessage>().update_spell_num(fire_num, water_num, plant_num);
-            }
         }
 
         public void EnableInvulnerability(bool ignoreTimer = false)
